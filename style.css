@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+
+.choices {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.choice {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0, 2s ease;
+}
+
+.choice:active {
+    background-color: black;
+    transition: all 0, 2s ease;
+}
+
+.choice img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.names {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    font-size: 25px;
+}
+
+.rock,
+.Scissor,
+.paper {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+
+
+
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+.userscore,
+.compscore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result {
+    margin-top: 55px;
+    border-radius: 4px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result div {
+    background: rgb(190, 186, 186);
+    font-size: 25px;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    border: none;
+    padding: 3px 10px;
+    border-radius: 14px;
+}
+
+.result {
+    text-align: center;
+}
